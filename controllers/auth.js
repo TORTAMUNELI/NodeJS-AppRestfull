@@ -82,7 +82,7 @@ const googleSignIn = async (req = request, res = response) => {
 
         res.json({
             usuario,
-            id_token
+            token
         })
     } catch (err) {
         console.log(err);
